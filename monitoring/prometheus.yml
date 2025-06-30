@@ -1,0 +1,8 @@
+global:
+  scrape_interval: 15s
+
+scrape_configs:
+  - job_name: 'churn_model_api'
+    metrics_path: /metrics
+    static_configs:
+      - targets: ['churn-detection-124339833986.asia-southeast1.run.app']

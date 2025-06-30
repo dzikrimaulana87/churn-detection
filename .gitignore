@@ -1,0 +1,23 @@
+venv
+# Abaikan cache analyzer
+dzikrimaulana87-pipeline/Transform/updated_analyzer_cache/
+dzikrimaulana87-pipeline/churn_pipeline/Transform/updated_analyzer_cache/
+# Ignore berat dan artefak pipeline
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite
+*.gz
+*.tfrecord
+*.ipynb_checkpoints
+.dzikrimaulana87-pipeline/
+dzikrimaulana87-pipeline/CsvExampleGen/
+dzikrimaulana87-pipeline/Evaluator/
+dzikrimaulana87-pipeline/ExampleValidator/
+dzikrimaulana87-pipeline/SchemaGen/
+dzikrimaulana87-pipeline/Trainer/
+dzikrimaulana87-pipeline/Transform/
+dzikrimaulana87-pipeline/Tuner/
+dzikrimaulana87-pipeline/metadata.sqlite
